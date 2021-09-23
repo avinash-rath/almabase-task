@@ -9,7 +9,7 @@ const app = express();
  * e.g. name = "Elon Musk"
  *      response = "Happy Birthday, Elon Musk!"
  */
-app.post('/sendName', (req, res) => {
+app.get('/sendName', (req, res) => {
     // getting the name parameter.
     const name = req.query.name;
     if(name == null) {

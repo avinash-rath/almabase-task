@@ -11,7 +11,7 @@ schemes:
 
 paths:
   /sendName:
-    post:
+    get:
       summary: Takes single parameter name and return a happy birthday message to that name
       description: e.g. if name = "Elon Musk", then response message = "Happy Birthday, Elon Musk!"
       parameters:
