@@ -1,0 +1,16 @@
+{
+  "name": "happy_birthday",
+  "version": "1.0.0",
+  "description": "This is an API that accepts a param(`name`) and returns a string ( `Happy Birthday <name>`)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./index.js",
+    "start": "node index.js"
+  },
+  "author": "Avinash Rath",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
