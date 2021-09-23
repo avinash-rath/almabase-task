@@ -1,10 +1,7 @@
 const express = require('express');
+const { port } = require('./config');
 
 const app = express();
-
-const port = process.env.PORT || 8080;
-
-
 //--------------REQUESTS--------------//
 /**
  * Takes a single parameter `name`, returns a string in response.
